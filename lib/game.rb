@@ -10,5 +10,5 @@ class Game
     [6,4,2]
   ]
   
-  attr_accessor :board
+  attr_accessor :board, 
 end
