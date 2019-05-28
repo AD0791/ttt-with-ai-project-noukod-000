@@ -28,5 +28,9 @@ class Game
       @board.cells[combo[1]] == @board.cells[combo[2]] &&
       @board.taken?(combo[0]+1)
     end
+    
+  def draw?
+    
+  end
   end
 end
