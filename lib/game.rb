@@ -48,7 +48,7 @@ class Game
     player = current_player
     current_move = player.move(@board)
     if !@board.valid_move?(current_move)
-      turn
+      turn # recursion
     else
       puts "Turn: #{@board.turn_count+1}\n"
       @board.display
