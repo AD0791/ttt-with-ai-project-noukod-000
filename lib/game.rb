@@ -58,4 +58,8 @@ class Game
       puts "\n\n"
     end
   end
+  
+  def play
+    
+  end
 end
